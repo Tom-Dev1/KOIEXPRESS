@@ -21,8 +21,8 @@ export default function OptionMenu({ name, options }) {
             />
           </svg>
         </div>
-        <div className="absolute hidden group-hover:block bg-white">
-          <ul className="ml-8 w-full bg-gray-100">
+        <div className="absolute hidden left-10 group-hover:block bg-white z-[1]">
+          <ul className=" w-48 bg-gray-100">
             {options.map((option, index) => (
               <li
                 key={index}
